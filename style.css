@@ -1,8 +1,14 @@
-
+body{
+    padding: 0px;
+}
 header{
     display: flex;
     padding: 0;
     justify-content: space-between;
+}
+.hh1{
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 .uls{
@@ -14,4 +20,58 @@ header{
 .links{
     text-decoration: none;
     font-size: 20px;
+}
+a:hover{
+    color: black;
+}
+a:active{
+    color: red;
+}
+
+.s1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    background-color: #f3f4f6;
+    padding: 0px;
+}
+#hh1h{
+ font-size: 40px;
+
+}
+#image{
+    height: 400px;
+    width: 400px;
+    border-radius: 100%;
+}
+.div1{
+    position: relative;
+    left: 200px;
+    top: 100px;
+}
+.pa{
+    font-size: 24px;
+}
+.div2{
+    padding-left: 100px;
+    padding-right: 100px;
+    color: white;
+   
+}
+.h22{
+    text-align: center;
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+.s2{
+    background-image:linear-gradient(to right, blue,rgb(153, 6, 153));
+    
+}
+.p2{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     padding-bottom: 50px;
 }
