@@ -83,6 +83,9 @@ a:active{
     align-items: center;
     gap: 25px;
 }
+#projects{
+    text-align: center;
+}
 .image-p{
     height: 250px;
     width: 400px;
@@ -94,7 +97,7 @@ a:active{
 .s4-container{
     display: flex;
     flex-wrap: wrap;
-    gap: 50px;
+    gap: 30px;
     padding-left: 50px;
 
 }
@@ -107,6 +110,12 @@ a:active{
     font-size: 50px;
     color: white;
 }
-#projects{
-    text-align: center;
+
+.div6,.div7,.div8{
+    border: 15px solid white;
+    background-color: white;
+}
+
+.img-post{
+    padding-bottom: 50px;
 }
