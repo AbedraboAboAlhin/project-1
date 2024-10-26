@@ -75,3 +75,17 @@ a:active{
      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
      padding-bottom: 50px;
 }
+.s3-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.image-p{
+    height: 250px;
+    width: 400px;
+    padding-bottom: 50px;
+}
+.div3,.div4,.div5{
+    border: 1px,solid,rgb(240, 219, 219);
+} 
