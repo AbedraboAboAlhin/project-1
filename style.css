@@ -99,6 +99,7 @@ a:active{
     flex-wrap: wrap;
     gap: 30px;
     padding-left: 50px;
+    padding-bottom: 40px;
 
 }
 .s4{
@@ -118,4 +119,41 @@ a:active{
 
 .img-post{
     padding-bottom: 50px;
+}
+#skills-h{
+    text-align: center;
+    font-size: 40px;
+}
+.skill-class{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.skill-1{
+    border: 1px,solid,rgb(233, 208, 208);
+    padding:8px 15px;
+    border-radius:10px;
+    background-color: #d8b4fe;
+    font-size: 30px;
+}
+.skill-2{
+    border: 1px,solid,rgb(233, 208, 208);
+    padding:8px 15px;
+    border-radius:10px;
+    background-color:#93c5fd;
+    font-size: 30px;
+}
+.skill-3{
+    border: 1px,solid,rgb(233, 208, 208);
+    padding:8px 15px;
+    border-radius:10px;
+    background-color:#fd8787;
+    font-size: 30px; 
+}
+.skill-4{
+    border: 1px,solid,rgb(233, 208, 208);
+    padding:8px 15px;
+    border-radius:10px;
+    background-color:#def868;
+    font-size: 30px;   
 }
