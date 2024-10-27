@@ -157,3 +157,68 @@ a:active{
     background-color:#def868;
     font-size: 30px;   
 }
+.comment1{
+    display: flex;
+    border: 1px,#e5e7eb,solid;
+    background-color: white;
+}
+.user12im{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+}
+.user21id{
+    position: relative;
+    top: 20px;
+    right: 350px;
+}
+.comment2{
+display: flex;
+border: 1px,#e5e7eb,solid;
+background-color: white;
+}
+.s6-container{
+    display: flex;
+    gap:40px;
+    justify-content: center;
+    padding-top: 30px ;   
+    padding-bottom: 50px ;   
+}
+#s6header{
+    text-align: center;
+}
+.s6{
+ background-color: #f3f4f6; 
+
+}
+.certification1{
+    width: 580px;
+    height: 380px;
+}
+.certification2{
+    width: 650px;
+    height: 480px;
+}
+.s7-container{
+    padding: 50px ;
+    display: flex;
+    gap: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.certification-header{
+    text-align: center;
+    font-size: 30px;
+}
+.s7-header{
+    text-align: center;
+    font-size:40px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.certification1-container,.certification2-container{
+    border: 1px solid #8883f9;
+    background-color: white;
+    border-radius: 5px;
+}
+.s7{
+    background-image: linear-gradient(to right,blue,rgb(153, 6, 153));
+}
