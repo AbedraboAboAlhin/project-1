@@ -196,7 +196,7 @@ background-color: white;
     height: 380px;
 }
 .certification2{
-    width: 650px;
+    width: 600px;
     height: 480px;
 }
 .s7-container{
@@ -213,12 +213,49 @@ background-color: white;
     text-align: center;
     font-size:40px;
     font-family:Georgia, 'Times New Roman', Times, serif;
+    padding-top: 30px;
 }
 .certification1-container,.certification2-container{
     border: 1px solid #8883f9;
     background-color: white;
     border-radius: 5px;
+    padding:0 20px;
 }
 .s7{
     background-image: linear-gradient(to right,blue,rgb(153, 6, 153));
+}
+.s8-form{
+    display:flex;
+    flex-direction: column;
+    gap:5px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+
+
+}
+.s8{
+    background-image: linear-gradient(to right,blue,rgb(153, 6, 153));
+}
+.s8-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input{
+    height: 35px;
+    width: 400px;
+    font-size: 20px;
+}
+.submit{
+    height: 45px;
+    width: 400px;
+    background-color: #3b82f6;
+    border:1px solid white;
+    border-radius:5px;
+    color:white;
+    font-size: 16px;
+}
+.label{
+    font-size:20px;
 }
