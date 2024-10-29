@@ -1,100 +1,125 @@
-body{
+body {
     padding: 0px;
     margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
-header{
+
+header {
     display: flex;
     padding: 0;
     justify-content: space-between;
 }
-.hh1{
-    font-family: Arial, Helvetica, sans-serif;
-    padding-left:50px ;
-    
+
+.hh1 {
+    /* font-family: Arial, Helvetica, sans-serif; */
+    padding-left: 50px;
+
 }
 
-.uls{
-   padding-top:10px;
+.uls {
+    padding-top: 10px;
     list-style-type: none;
     display: flex;
-    gap: 25px;    
+    gap: 25px;
 }
-.links{
+
+.links {
     text-decoration: none;
     font-size: 20px;
 }
-a:hover{
+
+a:hover {
     color: black;
 }
-a:active{
+
+a:active {
     color: red;
 }
 
-.s1{
+.s1 {
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
     background-color: #f3f4f6;
-    padding: 0px;
+    padding: 30px;
 }
-#hh1h{
- font-size: 40px;
+
+#hh1h {
+    font-size: 40px;
 
 }
-#image{
+
+#image {
     height: 400px;
     width: 400px;
     border-radius: 100%;
 }
-.div1{
+
+.div1 {
     position: relative;
     left: 200px;
     top: 100px;
 }
-.pa{
+
+.pa {
     font-size: 24px;
 }
-.div2{
+
+.div2 {
     padding-left: 100px;
     padding-right: 100px;
     color: white;
-   
-}
-.h22{
-    text-align: center;
-    font-size: 30px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+
 }
 
-.s2{
-    background-image:linear-gradient(to right, blue,rgb(153, 6, 153));
-    
+.h22 {
+    text-align: center;
+    font-size: 30px;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
 }
-.p2{
+
+.s2 {
+    background-image: linear-gradient(to right, blue, rgb(153, 6, 153));
+    display: flex;
+    flex-direction: column;
+
+}
+
+.p2 {
     text-align: center;
     padding-top: 20px;
     font-size: 20px;
-     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-     padding-bottom: 50px;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    padding-bottom: 50px;
 }
-.s3-container{
+
+.s3-container {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 25px;
 }
-#projects{
+
+#projects {
     text-align: center;
 }
-.image-p{
+
+.image-p {
     height: 250px;
     width: 400px;
     padding-bottom: 50px;
 }
-.div3,.div4,.div5{
-    border: 1px,solid,rgb(240, 219, 219);
-} 
-.s4-container{
+.textprojects{
+    padding-left: 15px;
+}
+
+.div3,
+.div4,
+.div5 {
+    border: 1px, solid, rgb(240, 219, 219);
+}
+
+.s4-container {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
@@ -102,160 +127,223 @@ a:active{
     padding-bottom: 40px;
 
 }
-.s4{
-    background-image: linear-gradient(to right ,blue,rgb(153, 6, 153));
+
+.s4 {
+    background-image: linear-gradient(to right, blue, rgb(153, 6, 153));
 }
-#posts{
+
+#posts {
     padding-top: 30px;
     text-align: center;
     font-size: 50px;
     color: white;
 }
 
-.div6,.div7,.div8{
+.div6,
+.div7,
+.div8 {
     border: 15px solid white;
     background-color: white;
 }
 
-.img-post{
+.img-post {
     padding-bottom: 50px;
 }
-#skills-h{
+
+#skills-h {
     text-align: center;
     font-size: 40px;
 }
-.skill-class{
+
+.skill-class {
     display: flex;
     justify-content: center;
     gap: 40px;
 }
-.skill-1{
-    border: 1px,solid,rgb(233, 208, 208);
-    padding:8px 15px;
-    border-radius:10px;
+
+.skill-1 {
+    border: 1px, solid, rgb(233, 208, 208);
+    padding: 8px 15px;
+    border-radius: 10px;
     background-color: #d8b4fe;
     font-size: 30px;
 }
-.skill-2{
-    border: 1px,solid,rgb(233, 208, 208);
-    padding:8px 15px;
-    border-radius:10px;
-    background-color:#93c5fd;
+
+.skill-2 {
+    border: 1px, solid, rgb(233, 208, 208);
+    padding: 8px 15px;
+    border-radius: 10px;
+    background-color: #93c5fd;
     font-size: 30px;
 }
-.skill-3{
-    border: 1px,solid,rgb(233, 208, 208);
-    padding:8px 15px;
-    border-radius:10px;
-    background-color:#fd8787;
-    font-size: 30px; 
+
+.skill-3 {
+    border: 1px, solid, rgb(233, 208, 208);
+    padding: 8px 15px;
+    border-radius: 10px;
+    background-color: #fd8787;
+    font-size: 30px;
 }
-.skill-4{
-    border: 1px,solid,rgb(233, 208, 208);
-    padding:8px 15px;
-    border-radius:10px;
-    background-color:#def868;
-    font-size: 30px;   
+
+.skill-4 {
+    border: 1px, solid, rgb(233, 208, 208);
+    padding: 8px 15px;
+    border-radius: 10px;
+    background-color: #def868;
+    font-size: 30px;
 }
-.comment1{
+
+.comment1 {
     display: flex;
-    border: 1px,#e5e7eb,solid;
+    border: 1px, #e5e7eb, solid;
     background-color: white;
 }
-.user12im{
+
+.user12im {
     width: 80px;
     height: 80px;
     border-radius: 100%;
 }
-.user21id{
+
+.user21id {
     position: relative;
     top: 20px;
     right: 350px;
 }
-.comment2{
-display: flex;
-border: 1px,#e5e7eb,solid;
-background-color: white;
-}
-.s6-container{
+
+.comment2 {
     display: flex;
-    gap:40px;
+    border: 1px, #e5e7eb, solid;
+    background-color: white;
+}
+
+.s6-container {
+    display: flex;
+    gap: 40px;
     justify-content: center;
-    padding-top: 30px ;   
-    padding-bottom: 50px ;   
+    padding-top: 30px;
+    padding-bottom: 50px;
 }
-#s6header{
+
+#s6header {
     text-align: center;
+    padding-top: 30px;
 }
-.s6{
- background-color: #f3f4f6; 
+
+.s6 {
+    background-color: #f3f4f6;
 
 }
-.certification1{
+
+.certification1 {
     width: 580px;
     height: 380px;
 }
-.certification2{
+
+.certification2 {
     width: 600px;
     height: 480px;
 }
-.s7-container{
-    padding: 50px ;
+
+.s7-container {
+    padding: 50px;
     display: flex;
     gap: 20px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
 }
-.certification-header{
+
+.certification-header {
     text-align: center;
     font-size: 30px;
 }
-.s7-header{
+
+.s7-header {
     text-align: center;
-    font-size:40px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
     padding-top: 30px;
 }
-.certification1-container,.certification2-container{
+
+.certification1-container,
+.certification2-container {
     border: 1px solid #8883f9;
     background-color: white;
     border-radius: 5px;
-    padding:0 20px;
+    padding: 0 20px;
 }
-.s7{
-    background-image: linear-gradient(to right,blue,rgb(153, 6, 153));
-}
-.s8-form{
-    display:flex;
+
+.s7 {
+    background-image: linear-gradient(to right, blue, rgb(153, 6, 153));
+    display: flex;
     flex-direction: column;
-    gap:5px;
+}
+
+.s8-form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
     background-color: white;
     padding: 20px;
     border-radius: 8px;
+    width: 500px;
 
 
 }
-.s8{
-    background-image: linear-gradient(to right,blue,rgb(153, 6, 153));
+
+.s8 {
+    background-image: linear-gradient(to right, blue, rgb(153, 6, 153));
+    display: flex;
+    flex-direction: column;
+    gap:50px;
 }
-.s8-container{
+
+.s8-container {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding:30px;
 }
-.input{
-    height: 35px;
-    width: 400px;
+
+.input {
+    height: 40px;
+    width: 500px;
     font-size: 20px;
 }
-.submit{
+
+.submit {
     height: 45px;
-    width: 400px;
+    width: 500px;
     background-color: #3b82f6;
-    border:1px solid white;
-    border-radius:5px;
-    color:white;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
     font-size: 16px;
+    
 }
-.label{
+
+.label {
+    font-size: 20px;
+
+}
+
+.Contact {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+}
+
+.label2 {
+    font-size: 20px;
+
+}
+.copy-right{
+    text-align: center;
+    color: white;
     font-size:20px;
+    padding: 10px;
+
+}
+footer{
+    background-color: black;
 }
