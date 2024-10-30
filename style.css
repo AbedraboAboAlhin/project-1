@@ -98,6 +98,7 @@ a:active {
     justify-content: center;
     align-items: center;
     gap: 25px;
+    padding: 20px;
 }
 
 #projects {
